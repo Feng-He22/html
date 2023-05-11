@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LightNovel World</title>
+	<script>
+		// Define a function to open the pop-up window
+		function openPopup() {
+			// Set the URL of the contact form page
+			var url = "contact%20us.html";
+			// Set the width and height of the window
+			var width = 600;
+			var height = 600;
+			// Calculate the position of the window
+			var left = (screen.width - width) / 2;
+			var top = (screen.height - height) / 2;
+			// Create the window
+			window.open(url, "Contact Us", "width=" + width + ", height=" + height + ", left=" + left + ", top=" + top);
+		}
+	</script>
+</head>
+<link rel="stylesheet" href="Css/main.css">
+<body>
+	<header>
+		<img src="Image/logo.png" alt="LightNovel logo">
+		<h1>LightNovel World</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="novels.html">Novels</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="about%20us.html">About Us</a></li>
+			<li><a href="blog.html">Blog</a></li>
+		</ul>
+	</nav>
+
+	<section class="banner">
+		<div class="slideshow-container">
+		  <div class="mySlides fade">
+			<img src="Image/banner 1.jpg	" style="width:100%">
+		  </div>
+		  <div class="mySlides fade">
+			<img src="Image/banner2.jpg" style="width:100%">
+		  </div>
+		  <div class="mySlides fade">
+			<img src="Image/banner3.jpg" style="width:100%">
+		  </div>
+		  <div class="mySlides fade">
+			<img src="Image/banner4.jpg" style="width:100%">
+		  </div>
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+	  </section>
+	  
+	
+	<script src="Javascrpit/slideshow.js"></script>
+	
+
+	<section class="Featured">
+		<h2>Kono Light Novel Ga Sugoi! - Top 10 LNs of 2023</h2>
+		<div style="display: flex; justify-content: space-between;">
+			<h3>Top 1</h3>
+			<a href="#"><img src="Image/Classroom of the Elite.jpg	" alt="Latest Novel"></a>
+			<h3>Top 2</h3>
+			<a href="#"><img src="Image/Chitose Is in the Ramune Bottle.jpg" alt="Popular forum discussion"></a>
+			<h3>Top 3</h3>
+			<a href="#"><img src="Image/The Angel Next Door Spoils Me Rotten.jpg" alt="New blog post"></a>
+		</div>
+	</section>
+
+	<div class="content">
+		<h2>Novel</h2>
+		<p>Here you can find the latest popular novels.</p>
+	  
+		<section id="section2" class="content2">
+		  <div class="novels">
+			<div class="novel">
+			  <div class="novel-container">
+				<img src="Image/Classroom of the Elite.jpg" alt="Novel 1 image">
+				<div class="novel-details">
+				  <h3>Classroom of the elite</h3>
+				  <p>Classroom of the Elite is a Japanese light novel series, written by Shōgo Kinugasa and illustrated by Shunsaku Tomose</p>
+				</div>
+			  </div>
+			</div>
+			<div class="novel">
+			  <div class="novel-container">
+				<img src="Image/Chitose Is in the Ramune Bottle.jpg" alt="Novel 2 image">
+				<div class="novel-details">
+				  <h3>Chitose-kun wa ramune bin no naka</h3>
+				  <p>Chitose Is in the Ramune Bottle is a Japanese light novel series written by Hiromu and illustrated by raemz.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="novel">
+			  <div class="novel-container">
+				<img src="Image/novel3.jpg" alt="Novel 3 image">
+				<div class="novel-details">
+				  <h3>Watashi no anata no namida ni naritai (N/A)</h3>
+				  <p>No description.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="novel">
+			  <div class="novel-container">
+				<img src="Image/The Angel Next Door Spoils Me Rotten.jpg" alt="Novel 4 image">
+				<div class="novel-details">
+				  <h3>The Angel Next Door spoils me rotten</h3>
+				  <p>The Angel Next Door Spoils Me Rotten is a Japanese light novel series written by Saekisan and illustrated by Hanekoto.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="novel">
+				<div class="novel-container">
+				  <img src="Image/Overlord.webp" alt="Novel 5 image">
+				  <div class="novel-details">
+					<h3>Overlord</h3>
+					<p>An office worker in a dystopian world logs onto a video game for the last time only to find out that he, along with his entire guild, has been transported to another reality.</p>
+			  </div>
+		  </div>
+		</section>
+	  </div>
+	  
+
+
+	<footer>
+		<div class="footer-container">
+			<div class="contact">
+				<h3>Contact Us</h3>
+				<p>Have questions or feedback? <br>Send us a message:</p>
+				<button onclick="openPopup()">Contact Form</button>
+			</div>
+		<div class="copyright">
+			<p>© 2023 LightNovel World. Education only</p>
+		</div>
+	</footer>
+	
+
+	

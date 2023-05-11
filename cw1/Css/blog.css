@@ -1,0 +1,163 @@
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	height: 100px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+/* CSS styles for the navigation menu */
+nav {
+	background-color: #ccc;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Default styles for .content */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+  }
+
+  .content h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+
+
+/* Message list styles */
+
+.message-list {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message p {
+  margin-right: 20px;
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.delete-btn:hover {
+  background-color: #444;
+}
+
+/* Message form styles */
+
+.message-form {
+  margin-top: 20px;
+}
+
+/* Style the message form */
+#message-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message-form label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#message-form input,
+#message-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+#message-form input:focus,
+#message-form textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+#message-form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#message-form button[type="submit"]:hover {
+  background-color: #444;
+}
